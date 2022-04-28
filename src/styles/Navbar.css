@@ -1,0 +1,72 @@
+.navbar1 {
+  position: relative;
+}
+.navbar {
+  background: #1c1c1c;
+  position: fixed;
+  top: 0;
+}
+.navbar .container .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .container .right .links .link {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+}
+.container .right .link::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: red;
+  transition: transform 0.3s;
+  transform: scale(0);
+  transform-origin: right;
+}
+.container .right .link:focus::after {
+  transform: scale(1);
+  transform-origin: left;
+}
+.container .right .link:focus{
+ color: black;
+}
+.navbar .container .right select {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  outline: none;
+}
+.navbar .container .right img {
+  width: 30px;
+  margin-right: 20px;
+}
+.navbar .container .right select .option1 {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: red;
+  background-color: #1c1c1c;
+}
+
+@media (max-width: 576px) {
+  .navbar .container .left img {
+    width: 120px;
+  }
+  .navbar .container .right .links {
+    display: none;
+  }
+}

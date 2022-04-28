@@ -1,0 +1,28 @@
+.xarita {
+  background: #f2f2f2;
+}
+.xarita .row .box1 h1 {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 38px;
+  color: #000000;
+}
+.xarita .row .box1 hr {
+  height: 4px;
+  width: 20%;
+  background-color: transparent;
+  background-color: red;
+}
+.xarita .row .box1 p {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+}
+.xarita .row .rasm img {
+  width: 100%;
+}

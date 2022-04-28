@@ -1,0 +1,51 @@
+.produc {
+  background: #f2f2f2;
+  padding-top: 30px;
+}
+.produc .tabs .link1 {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+.produc .tabs .link {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+/* .produc .tabs .link {
+  color: blue;
+} */
+.produc .tabs {
+  margin-bottom: 30px;
+}
+.produc .row .card-body .link {
+  text-decoration: none;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.produc .row .card hr {
+  width: 100%;
+  height: 2px;
+  background-color: red;
+}
+@media (max-width: 767px) {
+  .produc .row .boxes .card {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

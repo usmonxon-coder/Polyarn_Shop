@@ -1,0 +1,107 @@
+.krupniy {
+  padding: 100px 0 0 0;
+  background-image: url(../../public/images/text.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 130px;
+}
+.krupniy .container h1 {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.krupniy .container .boxes hr{
+  border: none;
+  background-color: transparent;
+  width: 13%;
+  height: 3px;
+  margin: 0 auto;
+  background-color: red;
+  margin-bottom: 20px;
+}
+.krupniy .container p {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+.krupniy .container .btn {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+  background: #ff0000;
+}
+.krupniy .boxes {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.krupniy .boxes .box {
+  width: 35%;
+  background-color: white;
+  padding: 35px;
+  margin-right: 20px;
+  transform: translateY(100px);
+}
+.krupniy .boxes .box h2 {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1c1c1c;
+}
+.krupniy .boxes .box p {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #1c1c1c;
+}
+.krupniy .boxes .box .link {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1c1c1c;
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  .krupniy .container h1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .krupniy .container .boxes {
+    flex-direction: column;
+  }
+  .krupniy .container .box {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+}

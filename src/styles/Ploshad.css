@@ -1,0 +1,62 @@
+.ploshad {
+  padding: 70px 0;
+  background-image: url(../../public/images/Rectangle\ 6.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.ploshad .row .box {
+  width: 70%;
+}
+.ploshad .row .box h2 {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.ploshad .row .box h1 {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 110.9%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.ploshad .row .box p {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 110.9%;
+  color: #ffffff;
+}
+.ploshad .row .box2 .btn {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #ff0000;
+  border-radius: 8px;
+}
+.ploshad .row .box1 {
+  margin-top: 100px;
+  padding: 20px;
+}
+.ploshad .row .box2 {
+  width: 80%;
+  padding: 20px;
+}
+.ploshad .row .box3 {
+  margin-top: 100px;
+  padding: 20px;
+}
+.ploshad .row .box:active {
+  background: #ff0000;
+}
